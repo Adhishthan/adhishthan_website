@@ -1,0 +1,11 @@
+.modalContainer{
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 30%;
+    margin: auto;
+    border-radius: 12px;
+    padding-left:20px ;
+}

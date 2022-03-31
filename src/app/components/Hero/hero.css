@@ -1,0 +1,32 @@
+.hero{
+    max-width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.486), rgba(0,0,0,.1)), url("../assets/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.hero-content{
+    position: absolute;
+    bottom: 10vh;
+    left: clamp(60px, 5vw, 100px);
+}
+
+.hero-header{
+    background-image: url("../assets/hero-title.png");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50vw;
+    min-height: 100px;
+    max-height: 150px;
+    margin-bottom: clamp(1.5re, 5vw, 2.5rem);
+}
+
+.hero-subtitle{
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Kanit';
+}

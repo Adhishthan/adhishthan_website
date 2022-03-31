@@ -1,0 +1,46 @@
+.about {
+  text-align: center;
+  padding: 15px 15vw;
+  padding-top: 70px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+
+.about > h2 {
+  font-size: clamp(3rem, 10vw, 4rem);
+  font-weight: 600;
+}
+
+.about-part {
+  text-align: start;
+  margin: 1rem 0 1rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about p,
+h4 {
+  margin-inline: 15px;
+}
+
+.about h3 {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  left: -15px;
+  font-weight: 500;
+}
+
+.about h4 {
+  font-size: clamp(1rem, 10vw, 1.5rem);
+  font-weight: 400;
+  margin-bottom: -10px;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 15px 8px;
+  }
+}
