@@ -1,11 +1,19 @@
-.modalContainer{
-    background-color: white;
+.modalContainer {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
     color: white;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: fit-content;
     width: 30%;
     margin: auto;
     border-radius: 12px;
-    padding-left:20px ;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .modalContainer {
+        width: 70%;
+        height: fit-content;
+    }
 }

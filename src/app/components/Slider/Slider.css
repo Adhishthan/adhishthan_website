@@ -1,24 +1,36 @@
-.CarouselMainContainer{
+.CarouselMainContainer {
     margin: 1% 0 10% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60vh;
+    height: 60%;
 }
-h1{
+
+h1 {
     font-size: 3rem;
     color: white;
+    text-align: center;
     font-weight: 600;
 }
-.Carousel{
+
+.Carousel {
     width: 40%;
     height: 100%;
 }
-.carousel-slider{
+
+.carousel-slider {
     height: 100%;
 }
-.Carousalimg{
+
+.Carousalimg {
     height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .Carousel {
+        width: 80%;
+        height: 100%;
+    }
 }
